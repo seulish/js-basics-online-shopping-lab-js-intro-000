@@ -15,7 +15,6 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
   const temp = [];
   if (!cart.length) {
     return 'Your shopping cart is empty.'
